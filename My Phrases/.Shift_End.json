@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Shift_Home", 
+    "description": "Shift_End", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
