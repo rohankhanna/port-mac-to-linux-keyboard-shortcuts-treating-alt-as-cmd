@@ -1,5 +1,8 @@
 {
     "usageCount": 0, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "ctrl_a", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -8,16 +11,21 @@
         "backspace": true, 
         "triggerInside": false
     }, 
-    "modes": [], 
-    "title": "Addresses", 
     "hotkey": {
-        "hotKey": null, 
-        "modifiers": []
+        "hotKey": "a", 
+        "modifiers": [
+            "<alt>"
+        ]
     }, 
+    "modes": [
+        3
+    ], 
+    "showInTrayMenu": false, 
+    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "folder", 
-    "showInTrayMenu": false
+    "type": "phrase", 
+    "sendMode": "kb"
 }
